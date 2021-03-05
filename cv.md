@@ -1,18 +1,18 @@
 # Ilya Udovichenko
 
-### Контакты:
+## Contacts:
 
 _E-mail: Rios111@yandex.ru_
 
-### About me:
+## About me:
 
 I plan to gain basic theoretical knowledge and practical skills for employment for the position of Junior Frontend Developer during the year. I hope that the Task Driven Education format offered by RS School will set the optimal track for acquiring relevant and modern knowledge during training.
 
-### Skills:
+## Skills:
 
 HTML, CSS, SCSS, Git, BEM methodology.
 
-### Code exapmple:
+## Code exapmple:
 
 ```
 .button {
@@ -49,3 +49,15 @@ HTML, CSS, SCSS, Git, BEM methodology.
 	left: 0;
 }
 ```
+
+## Projects:
+
+Some projects that I have implemented during my studies:
+
+- [VintageBike](https://ileudo.github.io/VintageBike/)
+- [PrimeOne](https://ileudo.github.io/PrimeOne/)
+- [BusinessUI](https://ileudo.github.io/BusinessUI/)
+
+## English:
+
+Upper-Intermediate.
