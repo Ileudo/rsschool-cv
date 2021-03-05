@@ -11,3 +11,41 @@ I plan to gain basic theoretical knowledge and practical skills for employment f
 ### Skills:
 
 HTML, CSS, SCSS, Git, BEM methodology.
+
+### Code exapmple:
+
+```
+.button {
+	height: 56px;
+	display: inline-block;
+	position: relative;
+	font-size: 16px;
+	line-height: 56px;
+	color: #ffffff;
+	background-color: #007397;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 0px 30px;
+}
+
+.button span {
+	position: relative;
+	z-index: 1;
+}
+
+.button:after {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 100%;
+	top: 0;
+	left: 50%;
+	background-color: #00526b;
+	transition: 0.3s 0s;
+}
+
+.button:hover:after {
+	width: 100%;
+	left: 0;
+}
+```
