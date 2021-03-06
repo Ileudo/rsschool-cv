@@ -10,91 +10,97 @@
 </head>
 
 <body>
-	<div class="container">
-		<section class="name">
-			<h1 class="name__title">Ilya Udovichenko</h1>
-		</section>
+	<div class="wrapper">
+		<div class="container">
+			<main class="main">
+				<section class="name">
+					<h1 class="name__title">Ilya Udovichenko</h1>
+				</section>
 
-		<section class="avatar">
-			<img src="" alt="Avatar">
-		</section>
+				<section class="avatar">
+					<div class="avatar__image"><img src="images/avatar.jpg" alt="Avatar"></div>
+				</section>
 
-		<section class="contacts">
-			<h2 class="contacts">Contacts:</h2>
-			<div class="contacts__email">E-mail: <a href="mailto: Rios111@yandex.ru">Rios111@yandex.ru</a></div>
-		</section>
+				<section class="contacts">
+					<h2 class="contacts">Contacts:</h2>
+					<a class="contacts__email selection" href="mailto: Rios111@yandex.ru">E-mail: Rios111@yandex.ru</a>
+				</section>
 
-		<section class="about-me">
-			<h2 class="about-me">About me:</h2>
-			<div class="about-me__text">I plan to gain basic theoretical knowledge and practical skills for employment for the position of Junior Frontend Developer during the year. I hope that the Task Driven Education format offered by RS School will set the optimal track for acquiring relevant and
-				modern knowledge during training.</div>
-		</section>
+				<section class="about-me">
+					<h2 class="about-me">About me:</h2>
+					<div class="about-me__text">I plan to gain basic theoretical knowledge and practical skills for employment for the position of Junior Frontend Developer during the year. I hope that the Task Driven Education format offered by RS School will set the optimal track for acquiring relevant
+						and
+						modern knowledge during training.</div>
+				</section>
 
-		<section class="skills">
-			<h2 class="skills__title">Skills:</h2>
-			<div class="skills__text">HTML, CSS, SCSS, Git, BEM methodology.</div>
-		</section>
+				<section class="skills">
+					<h2 class="skills__title">Skills:</h2>
+					<div class="skills__text">HTML, CSS, SCSS, Git, BEM methodology.</div>
+				</section>
 
-		<section class="code-example">
-			<h2 class="code-example__title">Code exapmple:</h2>
-			<code class="code-example__code">
-			<p>.button {<br>
-				height: 56px;<br>
-				display: inline-block;<br>
-				position: relative;<br>
-				font-size: 16px;<br>
-				line-height: 56px;<br>
-				color: #ffffff;<br>
-				background-color: #007397;<br>
-				font-weight: 700;<br>
-				text-transform: uppercase;<br>
-				padding: 0px 30px;<br>
-			}
-			</p>
-			<p>
-			.button span {<br>
-				position: relative;<br>
-				z-index: 1;<br>
-			}
-			</p>
-			<p>
-			.button:after {<br>
-				content: "";<br>
-				position: absolute;<br>
-				width: 0;<br>
-				height: 100%;<br>
-				top: 0;<br>
-				left: 50%;<br>
-				background-color: #00526b;<br>
-				transition: 0.3s 0s;<br>
-			}
-			</p>
-			<p>
-			.button:hover:after {<br>
-				width: 100%;<br>
-				left: 0;<br>
-			}
-			</p>
-</code>
-		</section>
+				<section class="code-example">
+					<h2 class="code-example__title">Code exapmple:</h2>
+					<code class="code-example__code">
+					<p>.button {<br>
+					height: 56px;<br>
+					display: inline-block;<br>
+					position: relative;<br>
+					font-size: 16px;<br>
+					line-height: 56px;<br>
+					color: #ffffff;<br>
+					background-color: #007397;<br>
+					font-weight: 700;<br>
+					text-transform: uppercase;<br>
+					padding: 0px 30px;<br>
+				}
+				</p>
+				<p>
+				.button span {<br>
+					position: relative;<br>
+					z-index: 1;<br>
+				}
+				</p>
+				<p>
+				.button:after {<br>
+					content: "";<br>
+					position: absolute;<br>
+					width: 0;<br>
+					height: 100%;<br>
+					top: 0;<br>
+					left: 50%;<br>
+					background-color: #00526b;<br>
+					transition: 0.3s 0s;<br>
+				}
+				</p>
+				<p>
+				.button:hover:after {<br>
+					width: 100%;<br>
+					left: 0;<br>
+				}
+				</p>
+			</code>
+				</section>
 
-		<section class="projects">
-			<h2 class="projects__title">Projects:</h2>
-			<div class="projects__text">
-				<p>Some projects that I have implemented during my studies:</p>
-				<ul>
-					<li><a href="https://ileudo.github.io/VintageBike/">VintageBike</a></li>
-					<li><a href="https://ileudo.github.io/PrimeOne/">PrimeOne</a></li>
-					<li><a href="https://ileudo.github.io/BusinessUI/">BusinessUI</a></li>
-				</ul>
-			</div>
-		</section>
 
-		<section class="english">
-			<h2 class="english__title">English:</h2>
-			<div class="english__text">Upper-Intermediate.</p>
-			</div>
-		</section>
+				<section class="projects">
+					<h2 class="projects__title">Projects:</h2>
+					<div class="projects__text">
+						<p>Some projects that I have implemented during my studies:</p>
+						<ul class="projects__list">
+							<li><a class="projects__link selection" href="https://ileudo.github.io/VintageBike/">VintageBike</a></li>
+							<li><a class="projects__link selection" href="https://ileudo.github.io/PrimeOne/">PrimeOne</a></li>
+							<li><a class="projects__link selection" href="https://ileudo.github.io/BusinessUI/">BusinessUI</a></li>
+						</ul>
+					</div>
+				</section>
+
+				<section class="english">
+					<h2 class="english__title">English:</h2>
+					<div class="english__text">Upper-Intermediate.</div>
+				</section>
+		</div>
+		</main>
+	</div>
 	</div>
 </body>
 
