@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,72 +8,85 @@
 	<title>HTML, CSS & Git Basics</title>
 	<link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-	<h1 class="name">Ilya Udovichenko</h1>
-<section class="contacts">
-<h2 class="contacts">Contacts:</h2>
-E-mail:<a href="mailto: Rios111@yandex.ru">Rios111@yandex.ru_</a> 
-</section>
+	<section class="name">
+		<h1 class="name">Ilya Udovichenko</h1>
+	</section>
 
-<h2 class="about-me">About me:</h2>
+	<section class="contacts">
+		<h2 class="contacts">Contacts:</h2>
+		<div class="contacts__email">E-mail: <a href="mailto: Rios111@yandex.ru">Rios111@yandex.ru</a></div>
+	</section>
 
-I plan to gain basic theoretical knowledge and practical skills for employment for the position of Junior Frontend Developer during the year. I hope that the Task Driven Education format offered by RS School will set the optimal track for acquiring relevant and modern knowledge during training.
-<section class="skills">
-<h2 class="skills__title">Skills:</h2>
+	<section class="about-me">
+		<h2 class="about-me">About me:</h2>
+		<div class="about-me__text">I plan to gain basic theoretical knowledge and practical skills for employment for the position of Junior Frontend Developer during the year. I hope that the Task Driven Education format offered by RS School will set the optimal track for acquiring relevant and
+			modern knowledge during training.</div>
+	</section>
 
-<div class="skills__text">HTML, CSS, SCSS, Git, BEM methodology.</div>
-</section>
-<section class="code-example">
-<h2 class="code-example__title">Code exapmple:</h2>
-<code class="code-example__code">
-.button {
-	height: 56px;
-	display: inline-block;
-	position: relative;
-	font-size: 16px;
-	line-height: 56px;
-	color: #ffffff;
-	background-color: #007397;
-	font-weight: 700;
-	text-transform: uppercase;
-	padding: 0px 30px;
-}
+	<section class="skills">
+		<h2 class="skills__title">Skills:</h2>
+		<div class="skills__text">HTML, CSS, SCSS, Git, BEM methodology.</div>
+	</section>
 
-.button span {
-	position: relative;
-	z-index: 1;
-}
+	<section class="code-example">
+		<h2 class="code-example__title">Code exapmple:</h2>
+		<code class="code-example__code">
+			.button {
+				height: 56px;
+				display: inline-block;
+				position: relative;
+				font-size: 16px;
+				line-height: 56px;
+				color: #ffffff;
+				background-color: #007397;
+				font-weight: 700;
+				text-transform: uppercase;
+				padding: 0px 30px;
+			}
 
-.button:after {
-	content: "";
-	position: absolute;
-	width: 0;
-	height: 100%;
-	top: 0;
-	left: 50%;
-	background-color: #00526b;
-	transition: 0.3s 0s;
-}
+			.button span {
+				position: relative;
+				z-index: 1;
+			}
 
-.button:hover:after {
-	width: 100%;
-	left: 0;
-}
+			.button:after {
+				content: "";
+				position: absolute;
+				width: 0;
+				height: 100%;
+				top: 0;
+				left: 50%;
+				background-color: #00526b;
+				transition: 0.3s 0s;
+			}
+
+			.button:hover:after {
+				width: 100%;
+				left: 0;
+			}
 </code>
-</section>
-<section class="projects">
-<h2 class="projects__title">Projects:</h2>
+	</section>
 
-<p>Some projects that I have implemented during my studies:</p>
-<ul>
-<li><a href="https://ileudo.github.io/VintageBike/">VintageBike</a></li>
-<li><a href="https://ileudo.github.io/PrimeOne/">PrimeOne</a></li>
-<li><a href="https://ileudo.github.io/BusinessUI/">BusinessUI</a></li>
-</ul>
-</section>
-<section class="english">
-<h2 class="english__title">English:</h2>
-<p>Upper-Intermediate.</p>
-</section>
+	<section class="projects">
+		<h2 class="projects__title">Projects:</h2>
+		<div class="projects__text">
+			<p>Some projects that I have implemented during my studies:</p>
+			<ul>
+				<li><a href="https://ileudo.github.io/VintageBike/">VintageBike</a></li>
+				<li><a href="https://ileudo.github.io/PrimeOne/">PrimeOne</a></li>
+				<li><a href="https://ileudo.github.io/BusinessUI/">BusinessUI</a></li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="english">
+		<h2 class="english__title">English:</h2>
+		<div class="english__text">Upper-Intermediate.</p>
+		</div>
+	</section>
+
 </body>
+
 </html>
